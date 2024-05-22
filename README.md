@@ -32,7 +32,7 @@ This repository contains the codes of the TMLR 2024 "Reproducibility Study on Ad
 
 + GOT10k: http://got-10k.aitestunion.com/downloads
 
-## Docker Image
+## Docker Image:
 
 We provide a Docker image that includes all the necessary packages to run the experiments. To build the docker image run:
 
