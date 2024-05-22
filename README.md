@@ -1,8 +1,8 @@
-### Reproducibility Study on Adversarial Attacks against Robust Transformer Trackers
+# Reproducibility Study on Adversarial Attacks against Robust Transformer Trackers
 
 This repository contains the codes of the TMLR 2024 "Reproducibility Study on Adversarial Attacks against Robust Transformer Trackers". Three experiments on the adversarial robustness of transformer trackers are performed and their codes are included. The dataset, trackers, and attack method links are listed below: 
 
-# Transformer trackers:
+## Transformer trackers:
 
 + TransT: https://github.com/chenxin-dlut/TransT
 
@@ -13,7 +13,7 @@ This repository contains the codes of the TMLR 2024 "Reproducibility Study on Ad
 + ROMTrack: https://github.com/dawnyc/ROMTrack 
 
 
-# Adversarial attacks:
+## Adversarial attacks:
 
 + RTAA: https://github.com/VISION-SJTU/RTAA/tree/main
 
@@ -24,7 +24,7 @@ This repository contains the codes of the TMLR 2024 "Reproducibility Study on Ad
 + CSA: https://github.com/MasterBin-IIAU/CSA
 
 
-# Datasets:
+## Datasets:
 
 + VOT2022: https://www.votchallenge.net/vot2022/
 
