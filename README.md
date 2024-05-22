@@ -1,6 +1,6 @@
-### Reproducibility Study on Adversarial Attacks against Robust Transformer Trackers
+n### Reproducibility Study on Adversarial Attacks against Robust Transformer Trackers
 
-This repository contains the codes of the TMLR 2024 "Reproducibility Study on Adversarial Attacks against Robust Transformer Trackers". Three experiemnts on tesing adversrial robustness of transformer trackers are performed and their codes are included. The dataset, trackers, and attack method links are listed below: 
+This repository contains the codes of the TMLR 2024 "Reproducibility Study on Adversarial Attacks against Robust Transformer Trackers". Three experiments on the adversarial robustness of transformer trackers are performed and their codes are included. The dataset, trackers, and attack method links are listed below: 
 
 # Transformer trackers:
 
@@ -40,13 +40,13 @@ We provide a Docker image that includes all the necessary packages to run the ex
 docker build . -f mixformer24.base -t mixformer24
 ```
 
-To mount local directory to the docker container, run:
+To mount the local directory to the docker container, run:
 
 ```
 nvidia-docker run -it --rm --user root --mount type=bind,source="$(pwd)",target=/mnt mixformer24:latest
 ```
 
-To run the codes, first export the esstial paths and then, use the following sample:
+To run the codes, first export the essential paths and then, use the following sample:
 
 ```
 conda run -n mixformer24 /bin/bash -c "vot evaluate TransT"
