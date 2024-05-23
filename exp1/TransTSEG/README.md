@@ -43,9 +43,9 @@ env_PATH = <PATH_OF_PYTHON>
 
 ## Step2: for TransT-SEG Attacked by IoU
 
-1- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/code/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
+1- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
-2- Add a new entry to trackers.ini file in "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
+2- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
 
 [TransT_IoU]  
@@ -63,15 +63,18 @@ env_PATH = <PATH_OF_PYTHON>
 
 5- Run the evaluation:
 
-    1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
++ Enter the VOT workspace directory (/path/to/vot2022_workspace)
     
-    2- Activate the 'transt' environment. 
++ Activate the 'transt' environment. 
     
-    3- Run:
-        ```
-         vot evaluate --workspace . TransT_IoU
-         vot analysis --workspace . 
-        ```
++ Run:
++ 
+  ```
+   vot evaluate --workspace . TransT_IoU
+  
+   vot analysis --workspace .
+  
+  ```
 
 ## Step3: for TransT-SEG Attacked by SPARK
 
@@ -102,15 +105,17 @@ env_PATH = <PATH_OF_PYTHON>
 
 5- Run the evaluation:
 
-    1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
++ Enter the VOT workspace directory (/path/to/vot2022_workspace)
     
-    2- Activate the 'transt' environment. 
++ Activate the 'transt' environment. 
     
-    3- Run:
-        ```
-         vot evaluate --workspace . TransT_SPARK
-         vot analysis --workspace . 
-         ```
++ Run:
+  
+  ```
+   vot evaluate --workspace . TransT_SPARK
+  
+   vot analysis --workspace . 
+   ```
 
 
 ## Step5: for TransT-SEG Attacked by RTAA
@@ -136,13 +141,14 @@ env_PATH = <PATH_OF_PYTHON>
 
 5- Run the evaluation:
 
-    1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
++ Enter the VOT workspace directory (/path/to/vot2022_workspace)
     
-    2- Activate the 'transt' environment. 
++ Activate the 'transt' environment. 
     
-    3- Run:
-        ```
-         vot evaluate --workspace . TransT_RTAA
-         vot analysis --workspace . 
-         ```
++ Run:
+  ```
+   vot evaluate --workspace . TransT_RTAA
+  
+   vot analysis --workspace . 
+   ```
 
