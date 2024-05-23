@@ -47,21 +47,18 @@
 
 2- Add a new entry to the trackers.ini file in the "vot22_seg_mixformer_large" directory(MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
 
-######################################
+> [MixFormer_IoU]  
+> 
+> label = MixFormer_IoU
+> 
+> protocol = traxpython
+> 
+> command = mixformer_vit_large_vit_seg_class_IoU
+>
+> paths = <PATH_OF_MIXFORMER>:<PATH_OF_MIXFORMER>/external/AR/pytracking/exp1:<PATH_OF_MIXFORMER>/external/AR
+> 
+> env_PATH = <PATH_OF_PYTHON>
 
-[MixFormer_IoU]  
-
-label = MixFormer_IoU
-
-protocol = traxpython
-
-command = mixformer_vit_large_vit_seg_class_IoU
-
-paths = <PATH_OF_MIXFORMER>:<PATH_OF_MIXFORMER>/external/AR/pytracking/exp1:<PATH_OF_MIXFORMER>/external/AR
-
-env_PATH = <PATH_OF_PYTHON>
-
-#####################################
 
 3- Edit <PATH_OF_PYTHON> with your path to the MixFormer environment that you built for this experiment from the 'ReproducibilityStudy/exp1/README.md' file.
 
