@@ -6,11 +6,11 @@
 
 2- Copy the 'pix2pix' and 'checkpoints' containing the networks from Google Drive: https://drive.google.com/drive/folders/117GuYBQpj8Sq4yUNj7MRdyNciTCkpzXL
 
-3- Paste them in 'MixFormerM_submit/' directory. 
+3- Paste them in the 'MixFormerM_submit/' directory. 
 
 4- Copy and paste the python files from 'ReproducibilityStudy/exp1/MixformerM/*.py' to the 'MixFormerM_submit/mixformer/external/AR/pytracking/exp1/'.
 
-5- Add a new entry to trackers.ini file in "vot22_seg_mixformer_large" directory(MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
+5- Add a new entry to the trackers.ini file in the "vot22_seg_mixformer_large" directory(MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
 
 ######################################
 
@@ -23,26 +23,28 @@ env_PATH = <PATH_OF_PYTHON>
 
 #####################################
 
-6- Edit <PATH_OF_PYTHON> with your path to the MixFormer environment that you built for this experiment from 'ReproducibilityStudy/exp1/README.md' file.
+6- Edit <PATH_OF_PYTHON> with your path to the MixFormer environment that you built for this experiment from the 'ReproducibilityStudy/exp1/README.md' file.
 
 7- The <PATH_OF_MIXFORMER> is your path to the 'mixformer' folder. Also, update the line '16' of 'siamRPNPP.py', 'GAN_utils_search_1.py' and 'GAN_utils_template_1.py' files with the  <PATH_OF_MIXFORMER>. 
 
 8- Enter the VOT workplace directory (/path/to/vot22_seg_mixformer_large) and edit the evaluation stack to 'vot2022/stb' in the 'config.yaml'.
 
 9- Run the MixFormer tracker attacked by CSA for VOT2022STB evaluation
-    1- Enter the VOT workplace directory (/path/to/vot22_seg_mixformer_large)
-    2- Activate the MixFormer environment. 
-    3- Run:
-        $ vot evaluate --workspace . MixFormer_CSA
-        $ vot analysis --workspace . 
-
++ Enter the VOT workplace directory (/path/to/vot22_seg_mixformer_large)
++ Activate the MixFormer environment. 
++ Run:
+ ```
+ vot evaluate --workspace . MixFormer_CSA
+ 
+ vot analysis --workspace . 
+```
 
 ## Step 2: for MixFormerM Attacked by IoU 
 
 
 1- Copy and paste the python files from 'ReproducibilityStudy/exp1/MixformerM/*.py' to the 'MixFormerM_submit/mixformer/external/AR/pytracking/exp1/'.
 
-2- Add a new entry to the trackers.ini file in "vot22_seg_mixformer_large" directory(MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
+2- Add a new entry to the trackers.ini file in the "vot22_seg_mixformer_large" directory(MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
 
 ######################################
 
@@ -55,16 +57,20 @@ env_PATH = <PATH_OF_PYTHON>
 
 #####################################
 
-3- Edit <PATH_OF_PYTHON> with your path to the MixFormer environment that you built for this experiment from 'ReproducibilityStudy/exp1/README.md' file.
+3- Edit <PATH_OF_PYTHON> with your path to the MixFormer environment that you built for this experiment from the 'ReproducibilityStudy/exp1/README.md' file.
 
 4- Enter the VOT workplace directory (/path/to/vot22_seg_mixformer_large) and edit the evaluation stack to 'vot2022/stb' in the 'config.yaml'.
 
 5- Run the MixFormer tracker attacked by IoU for VOT2022STB evaluation
-    1- Enter the VOT workplace directory (/path/to/vot22_seg_mixformer_large)
-    2- Activate the MixFormer environment. 
-    3- Run:
-        $ vot evaluate --workspace . MixFormer_IoU
-        $ vot analysis --workspace .
++ Enter the VOT workplace directory (/path/to/vot22_seg_mixformer_large)
++  Activate the MixFormer environment. 
++ Run:
+
+  ```
+   vot evaluate --workspace . MixFormer_IoU
+  
+   vot analysis --workspace .
+  ```
         
 
 
