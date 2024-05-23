@@ -5,7 +5,7 @@
 
 Download the codes and models from the GitHub page of the TransT tracker: https://github.com/chenxin-dlut/TransT
 
-### Step 2: Create environment
+### Step 2: Create the environment
 
 Follow the instructions to install the 'transt' environment, activate the environment and set it up. 
 
@@ -20,18 +20,18 @@ Then, add 'pysot' to the TransT directory as 'TransT/pysot/'.
 
 ### Step 5: Replace the SPARK algorithm with new updates to attack TransT
 
-Copy and paste the Python files in 'TMLR_supp/code/exp2/SPARK/*.py' to the 'TransT/pysot/attacker/' folder. Also, copy and past the python files is 'TMLR_supp/exp2/trackers/*.py' to the 'TransT/pysot_toolkit/trackers/' directory. 
+Copy and paste the Python files in 'ReproducibilityStudy/code/exp2/SPARK/*.py' to the 'TransT/pysot/attacker/' folder. Also, copy and paste the python files 'ReproducibilityStudy/exp2/trackers/*.py' to the 'TransT/pysot_toolkit/trackers/' directory. 
 
 
 ### Step 6: Modify the paths 
 
-Copy and paste the 'TMLR_supp/exp2/run/*.py' to the 'TransT/pysot_toolkit/'. Update the UAV123 dataset and model path in both files. 
+Copy and paste the 'ReproducibilityStudy/exp2/run/*.py' to the 'TransT/pysot_toolkit/'. Update the UAV123 dataset and model path in both files. 
 
 ### Step 7: Run the experiment 
 
 - For the SPARK experiment: 
 
-a. Copy and paste the 'TMLR_supp/exp2/anchor_target.py' to the 'TransT/pysot/datasets/' directory. 
+a. Copy and paste the 'ReproducibilityStudy/exp2/anchor_target.py' to the 'TransT/pysot/datasets/' directory. 
 
 b. The perturbation level name is 'inta'. By changing the 'inta' in 'TransT/pysot/attacker/attacker_builder.py', you can apply the SPARK method with the different perturbation levels. 
 
