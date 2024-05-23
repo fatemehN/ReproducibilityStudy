@@ -68,7 +68,7 @@ env_PATH = <PATH_OF_PYTHON>
 + Activate the 'transt' environment. 
     
 + Run:
-+ 
+
   ```
    vot evaluate --workspace . TransT_IoU
   
