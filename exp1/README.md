@@ -3,7 +3,7 @@
 
 
 ## Step1: Download the trackers' packages
-Please download the trackers from VOT challenge (VOT2022) website, as follows:
+Please download the trackers from the VOT challenge (VOT2022) website, as follows:
 
 1- MixFormerM: http://data.votchallenge.net/vot2022/trackers/MixFormerM-code-2022-05-04T09_55_58.619853.zip
 2- TransT-seg: http://data.votchallenge.net/vot2022/trackers/TransT-code-2022-05-02T12_15_01.373097.zip
@@ -15,11 +15,11 @@ For each tracker follow the instructions to build a suitable environment as the 
 For our experiments, we used the following networks:
 
 1- MixFormer-M: 
-    1.1- Tracker network(mixformer_vit_score_imagemae.pth.tar) from https://drive.google.com/file/d/1EOZgd3HVlTmhPdsWd-zGqx4I53H4oiqf/view 
-    Place this network on the (MixFormerM_submit/mixformer/models)
+1.1- Tracker network(mixformer_vit_score_imagemae.pth.tar) from https://drive.google.com/file/d/1EOZgd3HVlTmhPdsWd-zGqx4I53H4oiqf/view 
+Place this network on the (MixFormerM_submit/mixformer/models)
 
-    1.2- Segmentation Network(SEcmnet_ep0440.pth.tar) from https://drive.google.com/file/d/1J0ebV0Ksye62yQOba8ymCoWFFg-MxXVy/view
-    Place this network on the (MixFormerM_submit/mixformer/external/AR/ltr/checkpoints/ltr/ARcm_seg/ARcm_coco_seg_only_mask_384)
+1.2- Segmentation Network(SEcmnet_ep0440.pth.tar) from https://drive.google.com/file/d/1J0ebV0Ksye62yQOba8ymCoWFFg-MxXVy/view
+Place this network on the (MixFormerM_submit/mixformer/external/AR/ltr/checkpoints/ltr/ARcm_seg/ARcm_coco_seg_only_mask_384)
 
 2- TransT-SEG:
     TransTsegm_ep0075.pth.tar from (TransT/models/) folder of the tracker .zip file. 
