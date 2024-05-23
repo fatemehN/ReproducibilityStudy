@@ -27,11 +27,16 @@ env_PATH = <PATH_OF_PYTHON>
 7- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built using 'ReproducibilityStudy/exp1/README.md'. 
 
 8- Run the evaluation:
-    1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
-    2- Activate the 'transt' environment. 
-    3- Run:
-        $ vot evaluate --workspace . TransT_CSA
-        $ vot analysis --workspace . 
+
+1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
+
+2- Activate the 'transt' environment. 
+
+3- Run:
+    ```
+    vot evaluate --workspace . TransT_CSA
+    vot analysis --workspace . 
+    ```
 
 ## Step2: for TransT-SEG Attacked by IoU
 
