@@ -8,7 +8,7 @@
 
 3- Paste them in the 'TransT/' directory of the tracker you built using 'ReproducibilityStudy/exp1/README.md'. 
 
-4- From the TransTSEG folder on ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/code/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
+4- From the TransTSEG folder on ReproducibilityStudy directory(ReproducibilityStudy/exp1/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 5- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
@@ -70,7 +70,7 @@ Then, add 'pysot' to the TransT directory as 'TransT/pysot/'.
 
 3- Copy and paste the Python file 'ReproducibilityStudy/exp1/TransTSEG/anchor_target.py' to the 'TransT/pysot/datasets/' directory. 
 
-5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
+5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/exp1/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 6- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
