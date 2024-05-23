@@ -29,7 +29,7 @@ from lib.test.evaluation.tracker_IoUAttack import Tracker
 
 ## Step 6: Run the experiment 
 
-The parameter '&xi' is the 'pertrub_max' in 'IoU_utils.py'. One can change this parameter to one of the {8000, 10000, 12000} to reproduce our results by running the following command:
+The parameter '&xi;' is the 'pertrub_max' in 'IoU_utils.py'. One can change this parameter to one of the {8000, 10000, 12000} to reproduce our results by running the following command:
 
 ```
 python tracking/test.py ROMTrack baseline_stage2 --dataset uav --params__model ROMTrack_epoch0100.pth.tar --params__search_area_scale 3.75
