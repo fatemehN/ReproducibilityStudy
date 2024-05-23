@@ -2,7 +2,7 @@
 
 ## Step 1: for MixFormerM Attacked by CSA
 
-1- Download the 'CSA' codes and models from its official Github page: https://github.com/MasterBin-IIAU/CSA
+1- Download the 'CSA' codes and models from its official GitHub page: https://github.com/MasterBin-IIAU/CSA
 
 2- Copy the 'pix2pix' and 'checkpoints' containing the networks from Google dirve: https://drive.google.com/drive/folders/117GuYBQpj8Sq4yUNj7MRdyNciTCkpzXL
 
@@ -40,7 +40,7 @@ env_PATH = <PATH_OF_PYTHON>
 
 1- Copy and paste the python files from 'TMLR_supp/exp1/MixformerM/*.py' to the 'MixFormerM_submit/mixformer/external/AR/pytracking/exp1/'.
 
-2- Add a new entry to trackers.ini file in "vot22_seg_mixformer_large" directory(MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
+2- Add a new entry to the trackers.ini file in "vot22_seg_mixformer_large" directory(MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
 
 ######################################
 [MixFormer_IoU]  
@@ -64,4 +64,4 @@ env_PATH = <PATH_OF_PYTHON>
         
 
 
-## Note that for VOT2022STS, one should uncomment the mask prediction part from end of the tracker class in each file, report mask instead of bbox, change the  stack to 'vot2022/sts' and then, run the evaluation. 
+## Note that for VOT2022STS, one should uncomment the mask prediction part from the end of the tracker class in each file, report mask instead of the bounding box, change the  stack to 'vot2022/sts' and then, run the evaluation. 
