@@ -54,12 +54,16 @@ env_PATH = <PATH_OF_PYTHON>
 4- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built  using 'TMLR_Supp/exp1/README.md'. 
 
 5- Run the evaluation:
-    1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
-    2- Activate the 'transt' environment. 
-    3- Run:
-        $ vot evaluate --workspace . TransT_IoU
-        $ vot analysis --workspace . 
 
+    1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
+    
+    2- Activate the 'transt' environment. 
+    
+    3- Run:
+        ```
+         vot evaluate --workspace . TransT_IoU
+         vot analysis --workspace . 
+        ```
 
 ## Step3: for TransT-SEG Attacked by SPARK
 
@@ -89,17 +93,22 @@ env_PATH = <PATH_OF_PYTHON>
 4- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built  using 'TMLR_Supp/exp1/README.md'. 
 
 5- Run the evaluation:
+
     1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
+    
     2- Activate the 'transt' environment. 
+    
     3- Run:
-        $ vot evaluate --workspace . TransT_SPARK
-        $ vot analysis --workspace . 
+        ```
+         vot evaluate --workspace . TransT_SPARK
+         vot analysis --workspace . 
+         ```
 
 
 ## Step5: for TransT-SEG Attacked by RTAA
 
 
-5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
+5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/exp1/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 6- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
@@ -118,9 +127,14 @@ env_PATH = <PATH_OF_PYTHON>
 4- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built  using 'TMLR_Supp/exp1/README.md'. 
 
 5- Run the evaluation:
+
     1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
+    
     2- Activate the 'transt' environment. 
+    
     3- Run:
-        $ vot evaluate --workspace . TransT_RTAA
-        $ vot analysis --workspace . 
+        ```
+         vot evaluate --workspace . TransT_RTAA
+         vot analysis --workspace . 
+         ```
 
