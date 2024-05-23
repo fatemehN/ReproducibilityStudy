@@ -15,10 +15,15 @@
 ######################################
 
 [MixFormer_CSA]  
+
 label = MixFormer_CSA
+
 protocol = traxpython
+
 command = mixformer_vit_large_vit_seg_class_CSA
+
 paths = <PATH_OF_MIXFORMER>:<PATH_OF_MIXFORMER>/external/AR/pytracking/exp1:<PATH_OF_MIXFORMER>/external/AR
+
 env_PATH = <PATH_OF_PYTHON>
 
 #####################################
@@ -49,10 +54,15 @@ env_PATH = <PATH_OF_PYTHON>
 ######################################
 
 [MixFormer_IoU]  
+
 label = MixFormer_IoU
+
 protocol = traxpython
+
 command = mixformer_vit_large_vit_seg_class_IoU
+
 paths = <PATH_OF_MIXFORMER>:<PATH_OF_MIXFORMER>/external/AR/pytracking/exp1:<PATH_OF_MIXFORMER>/external/AR
+
 env_PATH = <PATH_OF_PYTHON>
 
 #####################################
