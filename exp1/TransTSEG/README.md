@@ -14,10 +14,15 @@
 ####################################
 
 [TransT_CSA]  
+
 label = TransT_CSA
+
 protocol = traxpython
+
 command =  transt_VOT2022_CSA
+
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
+
 env_PATH = <PATH_OF_PYTHON>
 
 ####################################
@@ -49,10 +54,15 @@ env_PATH = <PATH_OF_PYTHON>
 ####################################
 
 [TransT_IoU]  
+
 label = TransT_IoU
+
 protocol = traxpython
+
 command =  transt_VOT2022_IoU
+
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
+
 env_PATH = <PATH_OF_PYTHON>
 
 ####################################
@@ -91,10 +101,15 @@ Then, add 'pysot' to the TransT directory as 'TransT/pysot/'.
 ####################################
 
 [TransT_SPARK]  
+
 label = TransT_SPARK
+
 protocol = traxpython
+
 command =  transt_VOT2022_SPARK
+
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
+
 env_PATH = <PATH_OF_PYTHON>
 
 ####################################
@@ -127,10 +142,15 @@ env_PATH = <PATH_OF_PYTHON>
 ####################################
 
 [TransT_RTAA]  
+
 label = TransT_RTAA
+
 protocol = traxpython
+
 command =  transt_VOT2022_RTAA
+
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
+
 env_PATH = <PATH_OF_PYTHON>
 
 ####################################
