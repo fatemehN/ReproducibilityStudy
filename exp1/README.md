@@ -11,7 +11,7 @@ Please download the trackers from VOT challenge (VOT2022) website, as follows:
 ## Step2: Create the environment
 For each tracker follow the instructions to build a suitable environment as the instructions stated in their README.md file. 
 
-# Step3: Download the networks 
+## Step3: Download the networks 
 For our experiments, we used the following networks:
 
 1- MixFormer-M: 
