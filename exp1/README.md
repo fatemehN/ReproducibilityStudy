@@ -25,11 +25,11 @@ Place this network on the (MixFormerM_submit/mixformer/external/AR/ltr/checkpoin
 
 2- TransT-SEG:
 
-TransTsegm_ep0075.pth.tar from (TransT/models/) folder of the tracker .zip file. 
+TransTsegm_ep0075.pth.tar from the (TransT/models/) folder of the tracker .zip file. 
 
 ### Step 4: Run the setup files 
 Follow the instructions of each tracker to correct the paths and run the setup files. 
 
 ### Step 5: Tracker folders
 
-For each tracker evaluation, follow the instructions in their folders 'TMLR_supp/exp1/*'.
+For each tracker evaluation, follow the instructions in their folders 'ReproducibilityStudy/exp1/*'.
