@@ -2,7 +2,7 @@
 
 ## Step 1: for TransT-SEG Attacked by CSA
 
-1- Download the 'CSA' codes and models from its official Github page: https://github.com/MasterBin-IIAU/CSA
+1- Download the 'CSA' codes and models from its official GitHub page: https://github.com/MasterBin-IIAU/CSA
 
 2- Copy the 'pix2pix' and 'checkpoints' containing the networks from Google dirve: https://drive.google.com/drive/folders/117GuYBQpj8Sq4yUNj7MRdyNciTCkpzXL
 
@@ -12,17 +12,19 @@
 
 5- Add a new entry to trackers.ini file in "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
+
 [TransT_CSA]  
 label = TransT_CSA
 protocol = traxpython
 command =  transt_VOT2022_CSA
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
 env_PATH = <PATH_OF_PYTHON>
+
 ####################################
 
-6- Edit the paths of TransT_CSA entry to includes all of necessray paths as recommended on tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
+6- Edit the paths of the TransT_CSA entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to the "TransT" folder.
 
-7- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built  using 'TMLR_Supp/exp1/README.md'. 
+7- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built using 'TMLR_Supp/exp1/README.md'. 
 
 8- Run the evaluation:
     1- Enter the VOT workspace directory (/path/to/vot2022_workspace)
@@ -37,15 +39,17 @@ env_PATH = <PATH_OF_PYTHON>
 
 2- Add a new entry to trackers.ini file in "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
+
 [TransT_IoU]  
 label = TransT_IoU
 protocol = traxpython
 command =  transt_VOT2022_IoU
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
 env_PATH = <PATH_OF_PYTHON>
+
 ####################################
 
-3- Edit the paths of TransT_IoU entry to includes all of necessray paths as recommended on tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
+3- Edit the paths of the TransT_IoU entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
 
 4- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built  using 'TMLR_Supp/exp1/README.md'. 
 
@@ -59,10 +63,10 @@ env_PATH = <PATH_OF_PYTHON>
 
 ## Step3: for TransT-SEG Attacked by SPARK
 
-1- Download the 'pysot' folder from SPARK Github page: https://github.com/tsingqguo/AttackTracker/tree/main 
+1- Download the 'pysot' folder from the SPARK Github page: https://github.com/tsingqguo/AttackTracker/tree/main 
 Then, add 'pysot' to the TransT directory as 'TransT/pysot/'.
 
-2- Copy and paste the python files in 'TMLR_supp/code/exp1/SPARK/*.py' to the 'TransT/pysot/attacker/' folder. 
+2- Copy and paste the Python files in 'TMLR_supp/code/exp1/SPARK/*.py' to the 'TransT/pysot/attacker/' folder. 
 
 3- Copy and paste the python file 'TMLR_Supp/exp1/TransTSEG/anchor_target.py' to the 'TransT/pysot/datasets/' directory. 
 
@@ -70,12 +74,14 @@ Then, add 'pysot' to the TransT directory as 'TransT/pysot/'.
 
 6- Add a new entry to trackers.ini file in "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
+
 [TransT_SPARK]  
 label = TransT_SPARK
 protocol = traxpython
 command =  transt_VOT2022_SPARK
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
 env_PATH = <PATH_OF_PYTHON>
+
 ####################################
 
 3- Edit the paths of TransT_SPARK entry to includes all of necessray paths as recommended on tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
@@ -97,15 +103,17 @@ env_PATH = <PATH_OF_PYTHON>
 
 6- Add a new entry to trackers.ini file in "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
+
 [TransT_RTAA]  
 label = TransT_RTAA
 protocol = traxpython
 command =  transt_VOT2022_RTAA
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
 env_PATH = <PATH_OF_PYTHON>
+
 ####################################
 
-3- Edit the paths of TransT_RTAA entry to includes all of necessray paths as recommended on tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
+3- Edit the paths of the TransT_RTAA entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
 
 4- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built  using 'TMLR_Supp/exp1/README.md'. 
 
