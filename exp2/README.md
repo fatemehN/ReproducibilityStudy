@@ -20,7 +20,7 @@ Then, add 'pysot' to the TransT directory as 'TransT/pysot/'.
 
 ### Step 5: Replace the SPARK algorithm with new updates to attack TransT
 
-Copy and paste the Python files in 'ReproducibilityStudy/exp2/SPARK/*.py' to the 'TransT/pysot/attacker/' folder. Also, copy and paste the python files 'ReproducibilityStudy/exp2/trackers/'*'.py' to the 'TransT/pysot_toolkit/trackers/' directory. 
+Copy and paste the Python files in 'ReproducibilityStudy/exp2/SPARK/*.py' to the 'TransT/pysot/attacker/' folder. Also, copy and paste the python files 'ReproducibilityStudy/exp2/trackers/*.py' to the 'TransT/pysot_toolkit/trackers/' directory. 
 
 
 ### Step 6: Modify the paths 
