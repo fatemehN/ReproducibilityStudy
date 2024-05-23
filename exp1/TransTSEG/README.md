@@ -11,8 +11,7 @@
 4- From the TransTSEG folder on ReproducibilityStudy directory(ReproducibilityStudy/exp1/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 5- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
-####################################
-
+```
 [TransT_CSA]  
 
 label = TransT_CSA
@@ -24,8 +23,7 @@ command =  transt_VOT2022_CSA
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
 
 env_PATH = <PATH_OF_PYTHON>
-
-####################################
+```
 
 6- Edit the paths of the TransT_CSA entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to the "TransT" folder.
 
@@ -51,8 +49,7 @@ env_PATH = <PATH_OF_PYTHON>
 1- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 2- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
-####################################
-
+```
 [TransT_IoU]  
 
 label = TransT_IoU
@@ -64,8 +61,7 @@ command =  transt_VOT2022_IoU
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
 
 env_PATH = <PATH_OF_PYTHON>
-
-####################################
+```
 
 3- Edit the paths of the TransT_IoU entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
 
@@ -98,8 +94,7 @@ Then, add 'pysot' to the TransT directory as 'TransT/pysot/'.
 5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/exp1/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 6- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
-####################################
-
+```
 [TransT_SPARK]  
 
 label = TransT_SPARK
@@ -111,8 +106,7 @@ command =  transt_VOT2022_SPARK
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
 
 env_PATH = <PATH_OF_PYTHON>
-
-####################################
+```
 
 3- Edit the paths of the TransT_SPARK entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to the "TransT" folder.
 
@@ -139,8 +133,8 @@ env_PATH = <PATH_OF_PYTHON>
 5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/exp1/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 6- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
-####################################
 
+```
 [TransT_RTAA]  
 
 label = TransT_RTAA
@@ -152,8 +146,7 @@ command =  transt_VOT2022_RTAA
 paths = <PATH_OF_TRANST>:<PATH_OF_TRANST>/pytracking:<PATH_OF_TRANST>/pytracking/exp1
 
 env_PATH = <PATH_OF_PYTHON>
-
-####################################
+```
 
 3- Edit the paths of the TransT_RTAA entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to the "TransT" folder.
 
