@@ -6,11 +6,11 @@
 
 2- Copy the 'pix2pix' and 'checkpoints' containing the networks from Google Drive: https://drive.google.com/drive/folders/117GuYBQpj8Sq4yUNj7MRdyNciTCkpzXL
 
-3- Paste them in 'TransT/' directory of the tracker you built using 'ReproducibilityStudy/exp1/README.md'. 
+3- Paste them in the 'TransT/' directory of the tracker you built using 'ReproducibilityStudy/exp1/README.md'. 
 
 4- From the TransTSEG folder on ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/code/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
-5- Add a new entry to trackers.ini file in "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
+5- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
 
 [TransT_CSA]  
@@ -63,14 +63,14 @@ env_PATH = <PATH_OF_PYTHON>
 
 ## Step3: for TransT-SEG Attacked by SPARK
 
-1- Download the 'pysot' folder from the SPARK Github page: https://github.com/tsingqguo/AttackTracker/tree/main 
+1- Download the 'pysot' folder from the SPARK GitHub page: https://github.com/tsingqguo/AttackTracker/tree/main 
 Then, add 'pysot' to the TransT directory as 'TransT/pysot/'.
 
-2- Copy and paste the Python files in 'TMLR_supp/code/exp1/SPARK/*.py' to the 'TransT/pysot/attacker/' folder. 
+2- Copy and paste the Python files in 'ReproducibilityStudy/exp1/SPARK/*.py' to the 'TransT/pysot/attacker/' folder. 
 
-3- Copy and paste the python file 'TMLR_Supp/exp1/TransTSEG/anchor_target.py' to the 'TransT/pysot/datasets/' directory. 
+3- Copy and paste the Python file 'ReproducibilityStudy/exp1/TransTSEG/anchor_target.py' to the 'TransT/pysot/datasets/' directory. 
 
-5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'TMLR_Supp/code/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
+5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 6- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
@@ -84,7 +84,7 @@ env_PATH = <PATH_OF_PYTHON>
 
 ####################################
 
-3- Edit the paths of the TransT_SPARK entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
+3- Edit the paths of the TransT_SPARK entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to the "TransT" folder.
 
 4- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built  using 'TMLR_Supp/exp1/README.md'. 
 
@@ -99,7 +99,7 @@ env_PATH = <PATH_OF_PYTHON>
 ## Step5: for TransT-SEG Attacked by RTAA
 
 
-5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'TMLR_Supp/code/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
+5- From the TransTSEG folder in the ReproducibilityStudy directory(ReproducibilityStudy/code/TransTSEG), copy and paste all of the python files 'ReproducibilityStudy/exp1/TransTSEG/*.py' to the (TransT/pytracking/exp1) of the tracker folder.
 
 6- Add a new entry to the trackers.ini file in the "vot2022_workspace" directory(TransT/vot2022_workspace) as follows:
 ####################################
@@ -113,7 +113,7 @@ env_PATH = <PATH_OF_PYTHON>
 
 ####################################
 
-3- Edit the paths of the TransT_RTAA entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to "TransT" folder.
+3- Edit the paths of the TransT_RTAA entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_TRANST> is your path to the "TransT" folder.
 
 4- Edit <PATH_OF_PYTHON> with your path to the 'transt' environment that you built  using 'TMLR_Supp/exp1/README.md'. 
 
