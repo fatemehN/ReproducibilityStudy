@@ -57,7 +57,7 @@ conda run -n mixformer24 /bin/bash -c "vot evaluate TransT"
 ```
 ## BibTex Record:
 
-Please cite our works as follows:
+Please cite our paper as follows:
 
 ```
 @article{
