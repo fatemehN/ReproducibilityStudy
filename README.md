@@ -55,6 +55,22 @@ To run the codes, first export the essential paths and then, use the following s
 ```
 conda run -n mixformer24 /bin/bash -c "vot evaluate TransT"
 ```
+## BibTex Record:
+
+Please cite our works as follows:
+
+```
+@article{
+nokabadi2024reproducibility,
+title={Reproducibility Study on Adversarial Attacks Against Robust Transformer Trackers},
+author={Fatemeh Nourilenjan Nokabadi and Jean-Francois Lalonde and Christian Gagn{\'e}},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+url={https://openreview.net/forum?id=FEEKR0Vl9s},
+note={Reproducibility Certification}
+}
+```
 
 
 ## Contact:
